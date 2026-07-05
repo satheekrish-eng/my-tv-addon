@@ -1,19 +1,97 @@
 {
-  "name": "My Custom Malayalam Repo",
-  "version": "1.1.0",
+  "name": "Yoru's Repo (MalluMV Fixed)",
+  "version": "1.2.0",
   "scrapers": [
     {
       "id": "mallumv_fixed",
       "name": "MalluMV (Fixed)",
       "description": "MalluMV direct links using new .wiki domain",
-      "version": "1.1.0",
+      "version": "1.0.9",
       "author": "Nuvio Team & Me",
-      "supportedTypes": [ "movie", "tv" ],
+      "supportedTypes": [ "movie" ],
       "filename": "https://raw.githubusercontent.com/satheekrish-eng/my-tv-addon/refs/heads/main/mallumv_script.js",
       "enabled": true,
       "formats": [ "mkv", "mp4" ],
       "logo": "https://mallumv.wiki/favicon.ico",
       "contentLanguage": [ "ml", "ta", "te", "hi" ]
+    },
+    {
+      "id": "hdhub4u",
+      "name": "HDHub4u",
+      "description": "Direct links from HDHub4u with high-speed download support",
+      "version": "1.1.0",
+      "author": "Yoru",
+      "supportedTypes": [ "movie", "tv" ],
+      "filename": "https://raw.githubusercontent.com/yoruix/nuvio-providers/refs/heads/main/providers/hdhub4u.js",
+      "enabled": true,
+      "formats": [ "mkv", "mp4" ],
+      "logo": "https://www.google.com/s2/favicons?domain=new6.hdhub4u.fo&sz=128",
+      "contentLanguage": [ "en", "hin" ]
+    },
+    {
+      "id": "dvdplay",
+      "name": "DVDPlay",
+      "description": "DVDPlay direct download links with HubCloud extraction",
+      "version": "1.0.2",
+      "author": "Yoru",
+      "supportedTypes": [ "movie", "tv" ],
+      "filename": "https://raw.githubusercontent.com/yoruix/nuvio-providers/refs/heads/main/providers/dvdplay.js",
+      "enabled": true,
+      "formats": [ "mkv" ],
+      "logo": "https://www.google.com/s2/favicons?domain=dvdplay.com&sz=128",
+      "contentLanguage": [ "mal", "tam", "hin" ]
+    },
+    {
+      "id": "moviesmod",
+      "name": "MoviesMod",
+      "description": "Movie and TV show streams from MoviesMod with multiple quality options",
+      "version": "1.0.1",
+      "author": "Yoru",
+      "supportedTypes": [ "movie", "tv" ],
+      "filename": "https://raw.githubusercontent.com/yoruix/nuvio-providers/refs/heads/main/providers/moviesmod.js",
+      "enabled": true,
+      "formats": [ "mkv" ],
+      "logo": "https://www.google.com/s2/favicons?domain=moviesmod.farm&sz=128",
+      "contentLanguage": [ "en" ]
+    },
+    {
+      "id": "vega-movies",
+      "name": "VegaMovies",
+      "description": "High quality movie & series streams from VegaMovies",
+      "version": "1.0.0",
+      "author": "Yoru",
+      "supportedTypes": [ "movie", "tv" ],
+      "filename": "https://raw.githubusercontent.com/yoruix/nuvio-providers/refs/heads/main/providers/vegamovies.js",
+      "enabled": true,
+      "formats": [ "mkv", "mp4" ],
+      "logo": "https://www.google.com/s2/favicons?domain=vegamovies.pages.dev&sz=128",
+      "contentLanguage": [ "en", "hin" ]
+    },
+    {
+      "id": "extramovies",
+      "name": "ExtraMovies",
+      "description": "Streams from ExtraMovies with multiple server mirrors",
+      "version": "1.0.0",
+      "author": "Yoru",
+      "supportedTypes": [ "movie", "tv" ],
+      "filename": "https://raw.githubusercontent.com/yoruix/nuvio-providers/refs/heads/main/providers/extramovies.js",
+      "enabled": true,
+      "formats": [ "mkv" ],
+      "logo": "https://www.google.com/s2/favicons?domain=extramovies.com&sz=128",
+      "contentLanguage": [ "en", "hin" ]
+    },
+    {
+      "id": "yomovies",
+      "name": "YoMovies",
+      "description": "Stream Bollywood and Hollywood movies from YoMovies",
+      "version": "1.0.0",
+      "author": "Yoru",
+      "supportedTypes": [ "movie", "tv" ],
+      "filename": "https://raw.githubusercontent.com/yoruix/nuvio-providers/refs/heads/main/providers/yomovies.js",
+      "enabled": true,
+      "formats": [ "mp4" ],
+      "logo": "https://www.google.com/s2/favicons?domain=yomovies.ac&sz=128",
+      "contentLanguage": [ "hin", "en" ]
     }
   ]
 }
