@@ -1,14 +1,14 @@
 {
   "name": "My Custom Malayalam Repo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scrapers": [
     {
       "id": "mallumv_fixed",
       "name": "MalluMV (Fixed)",
       "description": "MalluMV direct links using new .wiki domain",
-      "version": "1.0.9",
+      "version": "1.1.0",
       "author": "Nuvio Team & Me",
-      "supportedTypes": [ "movie" ],
+      "supportedTypes": [ "movie", "tv" ],
       "filename": "https://raw.githubusercontent.com/satheekrish-eng/my-tv-addon/refs/heads/main/mallumv_script.js",
       "enabled": true,
       "formats": [ "mkv", "mp4" ],
