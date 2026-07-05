@@ -6,7 +6,7 @@
       "id": "mallumv_fixed",
       "name": "MalluMV (Fixed)",
       "description": "MalluMV direct links using new .wiki domain",
-      "version": "1.0.6",
+      "version": "1.0.9",
       "author": "Nuvio Team & Me",
       "supportedTypes": [ "movie" ],
       "filename": "https://raw.githubusercontent.com/satheekrish-eng/my-tv-addon/refs/heads/main/mallumv_script.js",
